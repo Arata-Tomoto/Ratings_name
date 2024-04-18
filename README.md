@@ -10,7 +10,7 @@
 
 検知するユーザーの追加法
 
-１．登録したいユーザーの画像urlを取得（"https://g-ratings.info/user/icon/****.jpg?^^^"みたいなやつ）
+１．登録したいユーザーの画像urlを取得（https://g-ratings.info/user/icon/****.jpg?^^^みたいなやつ）
 
 ２．****の部分をコピーして，登録したい名前と一緒にratings_name/database.jsonの中にいい感じに書く(他のデータ参照)
 
