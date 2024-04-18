@@ -1,0 +1,26 @@
+{
+  "name": "Reveal_Ratings_Name",
+  "description": "レートの対戦相手の匿名をはがします．過去のレート杯出場者のみに対応．",
+  "version": "0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://g-ratings.info/*"
+      ],
+      "js": [
+        "kenti.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "database2.json"
+      ],
+      "matches": [
+        "https://g-ratings.info/*"
+      ]
+    }
+  ]
+}
